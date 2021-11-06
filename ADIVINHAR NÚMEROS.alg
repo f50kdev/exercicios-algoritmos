@@ -1,10 +1,10 @@
-algoritmo "ADIVINHAR NÚMEROS"
+algoritmo "ADIVINHAR NÃšMEROS"
 var
-num:inteiro //número inicial a ser descoberto
-chute:inteiro //tentativa de acerto do número
-tent :inteiro //números de tentativas de acerto do número
+num:inteiro    //nÃºmero inicial a ser descoberto
+chute:inteiro //tentativa de acerto do nÃºmero
+tent:inteiro //nÃºmeros de tentativas de acerto do nÃºmero
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 escreval("JOGO DE ADIVINHAR O NUMERO")
 escreval("Digite um numero")
 tent <- 0
@@ -22,5 +22,5 @@ escreval ("Chutou baixo!")
 fimse
 fimse
 ate (num = chute)
-escreva ("números de tentativas: ",tent)
+escreva ("nÃºmeros de tentativas: ",tent)
 fimalgoritmo
